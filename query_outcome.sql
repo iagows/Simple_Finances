@@ -1,0 +1,6 @@
+CREATE TABLE `outcome` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`description`	TEXT NOT NULL,
+	`amount`	REAL NOT NULL,
+	`datetime`	TEXT NOT NULL
+);

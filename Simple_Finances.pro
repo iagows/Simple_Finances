@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,11 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++17 file_copies
 
 SOURCES += \
+        dbmanager.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        money.cpp
 
 HEADERS += \
-        mainwindow.h
+        dbmanager.h \
+        mainwindow.h \
+        money.h
 
 FORMS += \
         mainwindow.ui
@@ -45,3 +49,6 @@ translations.path = $$OUT_PWD/languages
 
 TRANSLATIONS = languages/tr_en.ts \
                languages/tr_pt.ts
+
+RESOURCES += \
+    res.qrc
