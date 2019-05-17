@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/icon">
-        <file>icon.png</file>
-    </qresource>
-    <qresource prefix="/queries">
-        <file>query_outcome.sql</file>
-        <file>query_income.sql</file>
-    </qresource>
-</RCC>
