@@ -26,6 +26,11 @@ bool DbManager::open(const QString &path)
     return db.open();
 }
 
+void DbManager::createDB(const QString &path)
+{
+
+}
+
 bool DbManager::isOpen()
 {
     return db.isOpen();

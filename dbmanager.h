@@ -14,6 +14,7 @@ public:
 
     QSqlDatabase getModel();
     bool open(const QString &path);
+    void createDB(const QString &path);
     bool isOpen();
 
     bool addIncome(Money &m);
