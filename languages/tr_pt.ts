@@ -143,17 +143,16 @@
         <translation>Escolha banco de dados para abrir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="29"/>
         <source>Error opening database</source>
-        <translation>Erro ao abrir banco de dados</translation>
+        <translation type="vanished">Erro ao abrir banco de dados</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="36"/>
         <source>Open database</source>
         <translation>Abrir banco de dados</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="36"/>
         <source>Database files (*.db)</source>
         <translation>Arquivos de banco de dados (*.db)</translation>
     </message>

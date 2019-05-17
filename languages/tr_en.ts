@@ -139,17 +139,12 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="29"/>
-        <source>Error opening database</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="36"/>
         <source>Open database</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="36"/>
         <source>Database files (*.db)</source>
         <translation></translation>
     </message>

@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include "dbmanager.h"
 namespace Ui
 {
 class MainWindow;
@@ -29,6 +29,8 @@ private:
     Ui::MainWindow *ui;
 
     void showMessage(QString txt);
+
+    DbManager manager;
 };
 
 #endif // MAINWINDOW_H

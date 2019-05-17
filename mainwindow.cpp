@@ -22,12 +22,7 @@ void MainWindow::on_bt_open_clicked()
 
     } else {
         QString path = ui->le_file->text();
-
-        if (false) {
-
-        } else {
-            showMessage(tr("Error opening database"));
-        }
+        manager.open(path);
     }
 }
 
@@ -48,7 +43,6 @@ void MainWindow::on_bt_file_clicked()
 void MainWindow::on_action_New_triggered()
 {
     QString file("meow.db");
-    //model.createDatabase(file);
     this->ui->le_file->setText("meow.db");
 }
 

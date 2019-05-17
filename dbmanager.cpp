@@ -2,11 +2,9 @@
 
 #include <QStringBuilder>
 
-DbManager::DbManager(const QString &path)
+DbManager::DbManager()
 {
-    db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(path);
-    db.open();
+
 }
 
 DbManager::~DbManager()
@@ -14,6 +12,18 @@ DbManager::~DbManager()
     if (isOpen()) {
         db.close();
     }
+}
+
+QSqlDatabase DbManager::getModel()
+{
+    return db;
+}
+
+bool DbManager::open(const QString &path)
+{
+    db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName(path);
+    return db.open();
 }
 
 bool DbManager::isOpen()

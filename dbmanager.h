@@ -9,8 +9,13 @@
 class DbManager
 {
 public:
-    DbManager(const QString &path);
+    DbManager();
     ~DbManager();
+
+    QSqlDatabase getModel();
+    bool open(const QString &path);
+    bool isOpen();
+
     bool addIncome(Money &m);
     bool removeIncome(Money &m);
 
