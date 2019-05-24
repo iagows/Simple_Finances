@@ -4,16 +4,16 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class DBModel extends SQLiteOpenHelper {
+public class DbCreation extends SQLiteOpenHelper {
     private static final String DB_NAME = "meow_finances.db";
-    private static final String TABLE = "income_outcome";
-    private static final String ID = "_id";
-    private static final String DESCRITION = "description";
-    private static final String DATE = "date";
-    private static final String AMOUNT = "amount";
+    public static final String TABLE = "income_outcome";
+    public static final String ID = "_id";
+    public static final String DESCRITION = "description";
+    public static final String DATE = "date";
+    public static final String AMOUNT = "amount";
     private static final int VERSAO = 1;
 
-    public DBModel(Context context) {
+    public DbCreation(Context context) {
         super(context, DB_NAME, null, VERSAO);
     }
 

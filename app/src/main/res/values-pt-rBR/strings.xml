@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meow Finanças</string>
+    <string name="money_dollar">R$</string>
+    <string name="screen_description">Descrição</string>
+    <string name="income_bt">Recebido</string>
+    <string name="outcome_bt">Gasto</string>
+    <string name="bt_finish">Finalizar</string>
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="db_error_insert">Erro ao salvar dados</string>
+    <string name="db_ok_insert">Dados inseridos com sucesso</string>
+</resources>

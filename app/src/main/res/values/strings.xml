@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Simple_Finances</string>
+    <string name="app_name">Meow Finances</string>
+    <string name="screen_description">Description</string>
+    <string name="money_dollar">$</string>
+    <string name="outcome_bt">spent</string>
+    <string name="income_bt">received</string>
+    <string name="bt_finish">Finish</string>
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="db_error_insert">insert error</string>
+    <string name="db_ok_insert">insert ok</string>
 </resources>
